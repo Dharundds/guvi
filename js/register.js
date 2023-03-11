@@ -8,6 +8,7 @@ $(document).ready(function () {
       data: $("#register").serialize(),
       success: function (data) {
         console.log(data);
+        window.location.pathname = "/login.html";
       },
     });
   });
