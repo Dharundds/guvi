@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/signup.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Guvi Login/Register System</h1>
+    </div>
+    <form class="bigBox" id="edit">
+        <h1>Profile</h1>
+        <div>
+            <label>
+                Username <input type="text" id="username" name="username" />
+            </label>
+            <label> Email <input type="text" id="email" name="email" /> </label>
+        </div>
+        <div>
+            <label> Fullname <input type="text" id="fname" name="fname" /> </label>
+            <label> DOB <input type="text" id="dob" name="dob" /> </label>
+        </div>
+        <div>
+            <label> Age <input type="text" id="age" name="age" /> </label>
+            <label> Phone <input type="text" id="phone" name="phone" /> </label>
+        </div>
+
+        <div class="buttonsRight">
+            <button id="logoutButton">Logout</button>
+            <button id="edit_btn" value="edit">Edit</button>
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./js/profile.js"></script>
+</body>
+
+</html>

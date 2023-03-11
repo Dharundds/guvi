@@ -1,0 +1,80 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  /* background-image: url(../assets/bg.webp); */
+  background-position: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+form h1 {
+  color: #1b83b3;
+  text-transform: capitalize;
+}
+
+form div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+form div label {
+  color: black;
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 5px;
+}
+
+form div label input {
+  width: 100%;
+  border: none;
+
+  padding: 14px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+button {
+  background-color: #2698cc;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #2698cc;
+}
+
+.bigBox {
+  width: 500px;
+}
+
+form .buttonsRight {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+}
+
+#logoutButton {
+  background-color: white;
+  border: 2px solid #2698cc;
+  color: #2698cc;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+
+  .bigBox {
+    width: 90%;
+  }
+}
