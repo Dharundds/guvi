@@ -48,17 +48,17 @@ body {
   text-decoration: none;
 }
 .loginLink {
-  background-color: white;
+  background-color: #2698cc;
   border: 2px solid #2698cc;
-  color: #2698cc;
+  color: white;
   font-weight: bold;
   padding: 10px 20px;
 }
 
 .registerLink {
-  background-color: #2698cc;
+  background-color: white;
   border: none;
-  color: white;
+  color: #2698cc;
   font-weight: bold;
   padding: 10px 20px;
   border: 2px solid #2698cc;
